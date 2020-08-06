@@ -1,13 +1,9 @@
-# Tarea2_FOR_LOOP
-Tarea 2 de FOR LOOP
-##Tarea 2 Big Data FOR_LOOP
-
 ##Tarea For-Loop
 
 rm(list = ls())
 
-#Ejercicio 1: Realice una funci√≥n que cuente cu√°ntos ni√±os hay por cada una
-#Entregue una estad√≠sitica de cu√°ntos ni√±os hay por mp.
+#Ejercicio 1: Realice una funciÛn que cuente cu·ntos niÒos hay por cada una
+#Entregue una estadÌsitica de cu·ntos niÒos hay por mp.
 
 listaDocumentos <- list(c("mp","Juan","Christofer"),c("of","av01","ampr"),c("of","av01","ante"),
                         c("of","av08","arme"),c("of","av02","ante"),c("of","av07","ampr"),
@@ -26,7 +22,7 @@ for (documentos in listaDocumentos) {
   if(documentos[1]=="mp"){
     cuentamp <- cuentamp+1
     documentos <- documentos[-1]
-    print((paste("Se cuenta con un mp de", length(documentos), "ni√±os")))
+    print((paste("Se cuenta con un mp de", length(documentos), "niÒos")))
   }else{
     cuentaof <- cuentaof+1
   }
@@ -34,7 +30,7 @@ for (documentos in listaDocumentos) {
 
 
 
-##Ejercicio 2: Contruir una funci√≥n que almacene los c√≥digos y tem√°ticas a las cuales se asocian.
+##Ejercicio 2: Contruir una funciÛn que almacene los cÛdigos y tem·ticas a las cuales se asocian.
 
 
 listaDocumentos <- list(c("mp","Juan","Christofer"),c("of","av01","ampr"),c("of","av01","ante"),
@@ -55,9 +51,9 @@ for (documentos in listaDocumentos) {
   }
 }
 
-#NO SUPE C√ìMO CONTINUAR PROFE :(
+#NO SUPE C”MO CONTINUAR PROFE :(
 
-#Ejercicio 3: Construya una funci√≥n que act√∫e de juez y retorne aprobada o reprobada
+#Ejercicio 3: Construya una funciÛn que act˙e de juez y retorne aprobada o reprobada
 ##para los diferentes oficios y entregue la cantidad que hay en cada una.
 
 listaDocumentos <- list(c("mp","Juan","Christofer"),c("of","av01","ampr"),c("of","av01","ante"),
@@ -85,7 +81,6 @@ for (documentos in listaDocumentos) {
 }
 
 print(paste("Llegaron", cuenta2of,"oficios, de los cuales:", aprueba, "son aprobados y", reprueba, "reprobados"))
-
 
 
 
